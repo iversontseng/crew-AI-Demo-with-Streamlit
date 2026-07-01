@@ -1,4 +1,4 @@
 streamlit
-crewai
-pydantic>=2.4.2
-langchain-core
+crewai==0.28.8
+pydantic==2.6.4
+langchain-core==0.1.45
