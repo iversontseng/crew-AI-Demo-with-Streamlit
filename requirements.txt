@@ -1,2 +1,4 @@
 streamlit
 crewai
+pydantic>=2.4.2
+langchain-core
