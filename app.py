@@ -3,9 +3,9 @@ import streamlit as st
 from crewai import Agent, Crew, Process, Task
 
 # --- 1. 網頁外殼設定 ---
-st.set_page_config(page_title="CrewAI 輕量 Demo", layout="centered")
-st.title("🤖 CrewAI + Streamlit (Gemini 雙探員完全體)")
-st.write("純內建環境 + Gemini 免費算力，輕量化 AI 團隊。")
+st.set_page_config(page_title="CrewAI Demo", layout="centered")
+st.title("🤖 CrewAI + Streamlit")
+st.write("純內建環境 + Gemini，輕量化 AI 團隊。")
 
 gemini_api_key = st.sidebar.text_input(
     "請輸入您的 Gemini API Key (AIzaSy...)", type="password"
